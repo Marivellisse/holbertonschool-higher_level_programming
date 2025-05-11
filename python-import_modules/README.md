@@ -41,3 +41,26 @@ To run each script:
 chmod +x filename.py
 ./filename.py [arguments...]
 
+
+---
+
+## 🚀 Advanced Tasks
+
+| File | Description |
+|------|-------------|
+| `100-my_calculator.py` | Custom command-line calculator. Accepts 3 arguments (`a operator b`) and performs +, -, * or / with error handling. |
+| `101-easy_print.py` | Prints `#pythoniscool` without using `print`, `eval`, `open`, or `import sys`. |
+| `102-magic_calculation.py` | Reimplements functionality based on Python bytecode using imported `add` and `sub` functions. |
+| `103-fast_alphabet.py` | Prints the uppercase alphabet using the `string` module in under 3 lines, with no literals, loops, or conditionals. |
+
+---
+
+## ✅ How to Run Advanced Scripts
+
+```bash
+chmod +x 100-my_calculator.py 101-easy_print.py 103-fast_alphabet.py
+./100-my_calculator.py 10 + 5
+./101-easy_print.py
+./103-fast_alphabet.py
+
+
