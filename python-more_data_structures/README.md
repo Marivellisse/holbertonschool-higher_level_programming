@@ -36,13 +36,26 @@ By the end of this project, you will be able to:
 ## 📁 Project Structure
 
 ```plaintext
-.
-├── 0-square_matrix_simple.py
-├── 1-search_replace.py
-├── 2-uniq_add.py
-├── 3-common_elements.py
-├── 4-only_diff_elements.py
-├── 5-number_keys.py
-├── 6-print_sorted_dictionary.py
-├── 7-up
+Task Highlights
 
+0. Squared simple – Return a new matrix with squared values using loops
+1. Search and replace – Replace a value with another in a new list
+2. Unique addition – Add all unique integers from a list
+3. Present in both – Return common elements between two sets
+4. Only differents – Return elements that appear in only one of the sets
+5. Number of keys – Return the number of keys in a dictionary
+6. Print sorted dictionary – Print a dictionary sorted by keys
+7. Update dictionary – Add or update a key/value in a dictionary
+8. Simple delete by key – Remove a key from a dictionary if it exists
+9. Multiply by 2 – Return a new dictionary with values doubled
+10. Best score – Return the key with the highest value in a dictionary
+11. Multiply by using map – Multiply list values using map (no loops)
+12. Roman to Integer – Convert a Roman numeral string into an integer
+13. Weighted average – Return the weighted average of scores
+14. Squared using map – Return a squared matrix using map only
+15. Delete by value – Remove all keys with a specific value
+Author
+
+Marivellisse Garcia
+Holberton School Student
+GitHub: Marivellisse
