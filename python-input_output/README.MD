@@ -1,39 +1,41 @@
-cat << EOF > README.md
-# Python - Input/Output
+General
 
-## 📚 Description
+-Why Python programming is awesome
+-How to open a file
+-How to write text in a file
+-How to read the full content of a file
+-How to read a file line by line
+-How to move the cursor in a file
+-How to make sure a file is closed after using it
+-What is and how to use the with statement
+-What is JSON
+-What is serialization
+-What is deserialization
+-How to convert a Python data structure to a JSON string
+-How to convert a JSON string to a Python data structure
+-How to access command line parameters in a Python script
 
-This project covers the basics of input/output in Python. It includes reading and writing files, understanding the `with` statement, working with file cursors, and using JSON for serialization and deserialization. The project also demonstrates how to use command-line arguments with the `sys` module.
+Requirements
 
-## 🧠 Learning Objectives
+-Python Scripts
+-Allowed editors: vi, vim, emacs
+-All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+-All your files should end with a new line
+-The first line of all your files should be exactly #!/usr/bin/python3
+-A README.md file, at the root of the folder of the project, is mandatory
+-Your code should use the pycodestyle (version 2.7.*)
+-All your files must be executable
+-The length of your files will be tested using wc
 
-- How to open, read, and write files in Python
-- Use the `with` statement for proper file handling
-- Understand file cursor movement
-- Ensure proper file closure
-- What is JSON and how to use it
-- Serialization and deserialization of data
-- How to handle command-line arguments in Python
+Python Test Cases
 
-## 🛠️ Requirements
-
-- Python 3.8.5
-- `pycodestyle` 2.7.*
-- All scripts are executable and include a proper shebang (`#!/usr/bin/python3`)
-- All test files are in the `tests` folder and executed with `python3 -m doctest ./tests/*`
-
-## 📂 Project Structure
-
-- `0-read_file.py`: Reads and prints a text file
-- `1-write_file.py`: Writes text to a file
-- Additional tasks involve appending text, JSON handling, and file evaluation
-
-## 📁 Folder
-
-- `tests/`: Contains `.txt` files for doctest-based testing.
-
-## 📌 Usage
-
-```bash
-./0-main.py
-
+-Allowed editors: vi, vim, emacs
+-All your files should end with a new line
+-All your test files should be inside a folder tests
+-All your test files should be text files (extension: .txt)
+-All your tests should be executed by using this command: python3 -m doctest ./tests/*
+-All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+-All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+-All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+-A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+-We strongly encourage you to work together on test cases, so that you don’t miss any edge case
