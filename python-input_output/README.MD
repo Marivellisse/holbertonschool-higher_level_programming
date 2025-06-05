@@ -1,4 +1,4 @@
-cat > README.md << 'EOF'
+cat << 'EOF' > README.md
 # Python - Input/Output
 
 Este proyecto aborda cómo manejar archivos en Python y cómo utilizar los conceptos de entrada/salida. A través de varias tareas, se exploran temas como lectura de archivos, escritura, serialización con JSON, deserialización, y el uso de argumentos desde la línea de comandos.
@@ -11,4 +11,3 @@ Este script define una función `write_file` que escribe una cadena de texto en 
 ### Prototipo de la función
 ```python
 def write_file(filename="", text=""):
-
