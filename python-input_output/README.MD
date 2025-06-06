@@ -1,41 +1,51 @@
-General
+# Python - Input/Output
 
--Why Python programming is awesome
--How to open a file
--How to write text in a file
--How to read the full content of a file
--How to read a file line by line
--How to move the cursor in a file
--How to make sure a file is closed after using it
--What is and how to use the with statement
--What is JSON
--What is serialization
--What is deserialization
--How to convert a Python data structure to a JSON string
--How to convert a JSON string to a Python data structure
--How to access command line parameters in a Python script
+## Description
 
-Requirements
+This project focuses on practicing file input and output (I/O) operations in Python, including reading and writing files, serializing and deserializing data using JSON, and interacting with command-line arguments. You will learn how to manipulate files using context managers (`with` statement), use the `json` module to store and retrieve complex data structures, and implement data persistence in Python applications.
 
--Python Scripts
--Allowed editors: vi, vim, emacs
--All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
--All your files should end with a new line
--The first line of all your files should be exactly #!/usr/bin/python3
--A README.md file, at the root of the folder of the project, is mandatory
--Your code should use the pycodestyle (version 2.7.*)
--All your files must be executable
--The length of your files will be tested using wc
+## Learning Objectives
 
-Python Test Cases
+By the end of this project, you should be able to:
 
--Allowed editors: vi, vim, emacs
--All your files should end with a new line
--All your test files should be inside a folder tests
--All your test files should be text files (extension: .txt)
--All your tests should be executed by using this command: python3 -m doctest ./tests/*
--All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
--All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
--All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
--A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
--We strongly encourage you to work together on test cases, so that you don’t miss any edge case
+- Understand the basics of file I/O in Python.
+- Open, read, write, and close files properly.
+- Use the `with` statement to manage file contexts.
+- Use JSON to serialize and deserialize Python data.
+- Understand how to save and load objects from files.
+- Work with command-line arguments in Python scripts.
+- Understand serialization and deserialization of class instances.
+
+## Requirements
+
+- Python 3.8.5
+- Files must end with a new line.
+- The first line of all scripts must be `#!/usr/bin/python3`.
+- Code should follow `pycodestyle` (version 2.7.*).
+- All scripts must be executable.
+- All test files must be `.txt` and live in a `tests` folder.
+- Documentation is required for all modules, classes, and functions.
+
+## 
+## Tasks Overview
+
+- **Task 0:** Read a text file and print its contents.
+- **Task 1:** Write a string to a text file.
+- **Task 2:** Append a string to a text file.
+- **Task 3:** Convert a Python object to a JSON string.
+- **Task 4:** Convert a JSON string to a Python object.
+- **Task 5:** Save a Python object to a file using JSON.
+- **Task 6:** Load a Python object from a JSON file.
+- **Task 7:** Add command-line arguments to a list and save to file.
+- **Task 8:** Convert a class instance to a dictionary for JSON serialization.
+- **Task 9–11:** Work with a `Student` class to serialize, filter, and reload instances.
+- **Task 12:** Implement Pascal’s Triangle generator.
+
+## Author
+
+**Marivellisse Garcia Lebron**  
+[LinkedIn](https://www.linkedin.com/in/marivellisse-garcia)
+
+---
+
+
